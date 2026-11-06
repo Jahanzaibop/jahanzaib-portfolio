@@ -78,11 +78,11 @@ website. Direct sending requires a backend or email service.
 
 ## Before publishing
 
-- Choose the production domain. The canonical URL is intentionally omitted
-  until the correct domain is known.
-- Once the domain is selected, set a canonical link and make the Open Graph
-  and Twitter image URLs in `index.html` absolute (for example,
-  `https://your-domain.example/og-image.jpg`).
+- The current production URL is
+  `https://jahanzaib-web-portfolio.netlify.app/`; its canonical and social
+  image URLs are configured in `index.html`.
+- If you connect a custom domain later, update those URLs to the preferred
+  canonical domain.
 - Deploy the contents of `dist/` to a static host over HTTPS.
 - Confirm each live project link and the contact email are still correct.
 - Social platform previews may need to be refreshed after the site goes live.
